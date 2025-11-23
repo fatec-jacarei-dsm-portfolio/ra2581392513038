@@ -11,7 +11,14 @@
   "skills": {"title":"Skills","frontend":"Frontend","backend":"Backend","tools":"Tools","soft":"Soft Skills","softItems":["Effective communication","Time management","Teamwork","Problem solving"]},
   "certifications": {"title":"Certifications"},
   "education": {"title":"Education"},
-  "projects": {"title":"Projects"},
+  "projects": {
+    "title":"Projects",
+    "academic":"Academic Projects",
+    "professional":"Professional Projects",
+    "personal":"Personal Projects",
+    "viewProject":"View Project",
+    "code":"Code"
+  },
   "contact": {"title":"Contact","email":"Email","github":"GitHub","linkedin":"LinkedIn","whatsapp":"WhatsApp","send":"Send message"},
   "footer": {"made":"Built with React, Tailwind and a love for code."}
 }

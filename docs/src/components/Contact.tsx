@@ -16,10 +16,8 @@ export default function Contact(){
         <div className="grid md:grid-cols-2 gap-6 items-start">
           <div className="card p-6">
             <div className="grid sm:grid-cols-2 gap-3">
-              <ContactItem label={t('contact.email')} href="mailto:joaovictorlopesr10@gmail.com" />
               <ContactItem label="GitHub" href="https://github.com/JV-L0pes" />
-              <ContactItem label="LinkedIn" href="https://www.linkedin.com/in/joaovictorlopesrosa" />
-              <ContactItem label="WhatsApp" href="https://wa.me/5512983003034" />
+              <ContactItem label="LinkedIn" href="https://www.linkedin.com/in/jv-l0pes" />
             </div>
           </div>
           <form className="card p-6 space-y-4" onSubmit={onSubmit}>

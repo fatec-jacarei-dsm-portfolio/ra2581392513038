@@ -11,7 +11,14 @@
   "skills": {"title":"Habilidades","frontend":"Frontend","backend":"Backend","tools":"Ferramentas","soft":"Habilidades Comportamentais","softItems":["Comunicação eficaz","Gestão do tempo","Trabalho em equipe","Resolução de problemas"]},
   "certifications": {"title":"Certificações"},
   "education": {"title":"Formação Acadêmica"},
-  "projects": {"title":"Projetos"},
+  "projects": {
+    "title":"Projetos",
+    "academic":"Projetos Acadêmicos",
+    "professional":"Projetos Profissionais",
+    "personal":"Projetos Pessoais",
+    "viewProject":"Ver Projeto",
+    "code":"Código"
+  },
   "contact": {"title":"Contato","email":"E-mail","github":"GitHub","linkedin":"LinkedIn","whatsapp":"WhatsApp","send":"Enviar mensagem"},
   "footer": {"made":"Feito com React, Tailwind e amor por código."}
 }
