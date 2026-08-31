@@ -61,8 +61,8 @@ window.addEventListener('scroll', () => {
 const typingText = document.querySelector('.typing-text');
 const words =
   document.documentElement.lang === 'en'
-    ? ['Developer in Training', 'Multiplatform Software Development Student', 'Passionate about Technology']
-    : ['Desenvolvedor em Formação', 'Estudante de DSM', 'Apaixonado por Tecnologia'];
+    ? ['Full Stack Developer', 'Multiplatform Software Development Student', 'Software Development Intern']
+    : ['Desenvolvedor Full Stack', 'Estudante de DSM na FATEC Jacareí', 'Estagiário de Desenvolvimento'];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;

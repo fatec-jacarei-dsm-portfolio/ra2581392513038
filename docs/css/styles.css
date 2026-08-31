@@ -2260,3 +2260,150 @@ section::before {
     padding: 0.5rem 0;
   }
 }
+
+/* ==========================================================================
+   Seção de Experiência Profissional
+   Reaproveita a linguagem visual dos cards de formação: mesmo fundo, mesma
+   borda e mesma elevação no hover, para a seção nova não parecer enxertada.
+   ========================================================================== */
+.experience-section {
+  background-color: var(--section-bg);
+}
+
+.experience-content {
+  max-width: 1200px;
+  margin: 3rem auto 0;
+  display: grid;
+  gap: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.experience-item {
+  background: var(--card-bg);
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 0, 51, 0.1);
+}
+
+.experience-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--gradient-primary);
+  opacity: 0;
+  transition: var(--transition);
+  z-index: 0;
+}
+
+.experience-item:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-primary);
+}
+
+.experience-item:hover::before {
+  opacity: 0.05;
+}
+
+.experience-item h3 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 0.4rem;
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.experience-meta {
+  color: var(--light-text);
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.experience-item ul {
+  list-style: none;
+  position: relative;
+  z-index: 1;
+}
+
+.experience-item ul li {
+  color: var(--light-text);
+  line-height: 1.6;
+  padding-left: 1.4rem;
+  margin-bottom: 0.6rem;
+  position: relative;
+}
+
+.experience-item ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+}
+
+.experience-item ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   Metadados, stack e nota de confidencialidade nos cards de projeto
+   ========================================================================== */
+.project-meta {
+  color: var(--primary-color);
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem !important;
+  letter-spacing: 0.01em;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.project-tag {
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  color: var(--light-text);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-color);
+  white-space: nowrap;
+}
+
+/* Card sem link publico: a nota ocupa o lugar dos botoes e fica colada no
+   rodape do card, para a altura acompanhar os cards vizinhos da grade. */
+.project-note {
+  margin-top: auto;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--light-text);
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 480px) {
+  .experience-item {
+    padding: 1.2rem;
+  }
+
+  .experience-item h3 {
+    font-size: 1.15rem;
+  }
+}

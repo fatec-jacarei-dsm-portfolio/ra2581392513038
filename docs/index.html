@@ -30,6 +30,7 @@
         <ul class="nav-links" role="menubar">
           <li role="none"><a href="#home" role="menuitem">Home</a></li>
           <li role="none"><a href="#about" role="menuitem">Sobre</a></li>
+          <li role="none"><a href="#experience" role="menuitem">Experiência</a></li>
           <li role="none"><a href="#skills" role="menuitem">Habilidades</a></li>
           <li role="none"><a href="#certifications" role="menuitem">Certificações</a></li>
           <li role="none"><a href="#education" role="menuitem">Formação</a></li>
@@ -53,8 +54,8 @@
       <section id="home" class="hero-section">
         <div class="hero-content" data-aos="fade-right">
           <h1>Olá, eu sou <span class="highlight">João Victor</span></h1>
-          <h2>Desenvolvedor em Formação</h2>
-          <p class="typing-text">Estudante de Desenvolvimento de Software Multiplataforma</p>
+          <h2>Desenvolvedor Full Stack</h2>
+          <p class="typing-text">Desenvolvedor Full Stack</p>
         </div>
         <div class="hero-image">
           <img src="img/pfp.jpg" alt="João Victor Lopes" class="profile-img" onerror="this.src='https://via.placeholder.com/400x400?text=JV+Lopes'">
@@ -68,18 +69,19 @@
         </div>
         <div class="about-content">
           <div class="about-text" data-aos="fade-right">
-            <p>Sou estudante de <span class="highlight">Desenvolvimento de Software Multiplataforma</span> na FATEC Jacareí, com foco em desenvolvimento web, mobile e software multiplataforma. Busco oportunidades de estágio e aprendizado que me proporcionem crescimento e exposição a desafios técnicos.</p>
-            <p><strong>Inglês Avançado</strong> — Comunicação, leitura e escrita em nível avançado, próximo da fluência, para projetos internacionais e estudos técnicos.</p>
-            <p>Comprometido com o contínuo aprimoramento das minhas habilidades e com a entrega de soluções criativas e eficazes.</p>
+            <p>Sou estudante de <span class="highlight">Desenvolvimento de Software Multiplataforma</span> na FATEC Jacareí, cursando o 4º semestre. Trabalho com desenvolvimento web full stack, arquitetura de software e entrega de produto.</p>
+            <p>Atuo como estagiário de desenvolvimento desde 2025. Hoje sou o principal desenvolvedor de uma plataforma interna usada no dia a dia por toda a empresa, respondendo pela arquitetura do ecossistema e pelo caminho que leva do requisito ao ar.</p>
+            <p><strong>Inglês Avançado</strong>, comunicação, leitura e escrita em nível avançado, próximo da fluência, para projetos internacionais e estudos técnicos.</p>
+            <p>Meu foco não é só stack. É justificar o tradeoff antes de codar e entregar sem derrubar quem depende do sistema.</p>
           </div>
           <div class="about-stats" data-aos="fade-left">
             <div class="stat-item">
-              <h3>FATEC</h3>
-              <p>Jacareí</p>
+              <h3>DSM</h3>
+              <p>4º semestre</p>
             </div>
             <div class="stat-item">
-              <h3>DSM</h3>
-              <p>2025-2027</p>
+              <h3>Estágio</h3>
+              <p>desde 2025</p>
             </div>
             <div class="stat-item">
               <h3>Inglês</h3>
@@ -89,6 +91,42 @@
         </div>
       </section>
 
+      <section id="experience" class="experience-section">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Experiência Profissional</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="experience-content">
+          <div class="experience-item" data-aos="fade-up">
+            <h3>Estagiário de Desenvolvimento de Software</h3>
+            <p class="experience-meta">AutoU · Rio de Janeiro, remoto · Dez 2025 até hoje</p>
+            <ul>
+              <li>Principal desenvolvedor de uma plataforma interna usada no dia a dia por toda a empresa</li>
+              <li>Respondo pela arquitetura do ecossistema e pelo caminho que leva do requisito ao ar</li>
+              <li>Front em React e TypeScript, back em FastAPI e NestJS, sobre PostgreSQL em nuvem</li>
+              <li>Prática de ADR, migrations deploy-safe e quality gate no CI a cada pull request</li>
+            </ul>
+          </div>
+          <div class="experience-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>Estagiário de Desenvolvimento</h3>
+            <p class="experience-meta">AllTechBR · Jul 2025 a Dez 2025</p>
+            <ul>
+              <li>Site institucional em Next.js com captação de leads, PostgreSQL e SendGrid</li>
+              <li>APIs REST e automações com n8n para fluxos corporativos</li>
+              <li>Entrega full stack com foco em segurança: CSRF, rate limiting e validação com Zod</li>
+            </ul>
+          </div>
+          <div class="experience-item" data-aos="fade-up" data-aos-delay="200">
+            <h3>Scrum Master e Desenvolvedor · ABP</h3>
+            <p class="experience-meta">FATEC Jacareí · 2025 até hoje</p>
+            <ul>
+              <li>Condução de cerimônias Scrum e organização de backlog</li>
+              <li>Entrega de projetos com parceiro real, em equipe multidisciplinar</li>
+              <li>Atuação full stack em frontend, backend e documentação de arquitetura</li>
+            </ul>
+          </div>
+        </div>
+      </section>
       <section id="skills" class="skills-section">
         <div class="section-header" data-aos="fade-up">
           <h2>Habilidades</h2>
@@ -115,38 +153,44 @@
                 <span>Next.js</span>
               </div>
               <div class="skill-item">
-                <ion-icon name="logo-typescript"></ion-icon>
+                <ion-icon name="code-slash-outline"></ion-icon>
                 <span>TypeScript</span>
+              </div>
+              <div class="skill-item">
+                <ion-icon name="color-palette-outline"></ion-icon>
+                <span>Tailwind CSS</span>
               </div>
             </div>
           </div>
-
           <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
             <h3>Backend</h3>
             <div class="skills-container">
               <div class="skill-item">
-                <ion-icon name="logo-javascript"></ion-icon>
-                <span>JavaScript</span>
-              </div>
-              <div class="skill-item">
                 <ion-icon name="logo-nodejs"></ion-icon>
                 <span>Node.js</span>
+              </div>
+              <div class="skill-item">
+                <ion-icon name="cube-outline"></ion-icon>
+                <span>NestJS</span>
               </div>
               <div class="skill-item">
                 <ion-icon name="logo-python"></ion-icon>
                 <span>Python</span>
               </div>
               <div class="skill-item">
+                <ion-icon name="flash-outline"></ion-icon>
+                <span>FastAPI</span>
+              </div>
+              <div class="skill-item">
                 <ion-icon name="server-outline"></ion-icon>
                 <span>PostgreSQL</span>
               </div>
               <div class="skill-item">
-                <ion-icon name="server-outline"></ion-icon>
-                <span>MySQL</span>
+                <ion-icon name="construct-outline"></ion-icon>
+                <span>Prisma</span>
               </div>
             </div>
           </div>
-
           <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
             <h3>Ferramentas</h3>
             <div class="skills-container">
@@ -155,20 +199,24 @@
                 <span>Git/GitHub</span>
               </div>
               <div class="skill-item">
-                <ion-icon name="code-slash-outline"></ion-icon>
-                <span>VSCode/Cursor</span>
+                <ion-icon name="logo-docker"></ion-icon>
+                <span>Docker</span>
               </div>
               <div class="skill-item">
                 <ion-icon name="list-outline"></ion-icon>
-                <span>SCRUM</span>
+                <span>Scrum</span>
               </div>
               <div class="skill-item">
-                <ion-icon name="construct-outline"></ion-icon>
-                <span>Prisma</span>
+                <ion-icon name="git-merge-outline"></ion-icon>
+                <span>CI/CD</span>
               </div>
               <div class="skill-item">
-                <ion-icon name="color-palette-outline"></ion-icon>
-                <span>Tailwind CSS</span>
+                <ion-icon name="rocket-outline"></ion-icon>
+                <span>Vercel</span>
+              </div>
+              <div class="skill-item">
+                <ion-icon name="checkmark-done-outline"></ion-icon>
+                <span>Testes</span>
               </div>
             </div>
           </div>
@@ -192,10 +240,13 @@
               <ion-icon name="bulb-outline"></ion-icon>
               <span>Resolução de problemas</span>
             </div>
+            <div class="skill-item">
+              <ion-icon name="document-text-outline"></ion-icon>
+              <span>Documentação técnica</span>
+            </div>
           </div>
         </div>
       </section>
-
       <section id="certifications" class="certifications-section">
         <div class="section-header" data-aos="fade-up">
           <h2>Certificações</h2>
@@ -238,134 +289,144 @@
           <div class="education-item" data-aos="fade-up">
             <h3>Curso Superior de Tecnologia em Desenvolvimento de Software Multiplataforma</h3>
             <p>Fatec Jacareí</p>
-            <p>2025 - 2027 (Previsão)</p>
+            <p>2025 a 2027 (previsão) · cursando o 4º semestre</p>
           </div>
-          <div class="education-item" data-aos="fade-up">
+          <div class="education-item" data-aos="fade-up" data-aos-delay="100">
             <h3>Ensino Médio e Pré-Vestibular</h3>
             <p>Anglo Jacareí</p>
-            <p>2020 - 2022</p>
+            <p>2020 a 2022</p>
           </div>
         </div>
       </section>
-
       <section id="projects" class="projects-section">
         <div class="section-header" data-aos="fade-up">
           <h2>Projetos</h2>
           <div class="underline"></div>
         </div>
 
-        <!-- Projetos Acadêmicos -->
         <div class="project-category" data-aos="fade-up">
-          <h3 class="category-title">Projetos Acadêmicos</h3>
+          <h3 class="category-title">Projetos Acadêmicos (ABP)</h3>
           <div class="projects-grid">
             <div class="project-card" data-aos="fade-up" data-aos-delay="100">
               <div class="project-info">
-                <h3>Sistema de Gestão de Horários Acadêmicos</h3>
-                <p>Sistema web desenvolvido para otimizar a gestão de horários acadêmicos da FATEC Jacareí, modernizando o processo de divulgação e consulta de grades horárias por meio de uma plataforma digital integrada. <strong>Função:</strong> Scrum Master e Desenvolvedor Frontend.</p>
+                <h3>Quantum CRM · Gestão de Leads</h3>
+                <p class="project-meta">ABP 2026-1 · 3º semestre · Parceiro: 1000 Valle Multimarcas</p>
+                <p>CRM completo para uma concessionária multimarcas: leads, clientes, veículos, negociações, equipes e lojas, com dashboard operacional e analítico. Monólito modular em camadas, autorização aplicada exclusivamente no backend e audit log como feature administrativa. Entregue em três sprints, no ar, com cliente real.</p>
+                <div class="project-tags"><span class="project-tag">NestJS</span><span class="project-tag">Next.js</span><span class="project-tag">TypeScript</span><span class="project-tag">Prisma</span><span class="project-tag">PostgreSQL</span><span class="project-tag">Docker</span></div>
                 <div class="project-links">
-                  <a href="https://github.com/ErrorSquad-ABP/Gerenciamento_Pedagogico-Documentacao" class="btn primary-btn" target="_blank">Ver Projeto</a>
-                  <a href="https://github.com/ErrorSquad-ABP/Gerenciamento_Pedagogico-Documentacao" class="btn secondary-btn" target="_blank">Código</a>
+                  <a href="https://github.com/ErrorSquad-ABP/ABP3-Sistema-Gestao-Leads" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Repositório</a>
                 </div>
               </div>
             </div>
             <div class="project-card" data-aos="fade-up" data-aos-delay="200">
               <div class="project-info">
-                <h3>Sistema de Visualização e Disseminação de Dados Limnológicos</h3>
-                <p>Projeto acadêmico ABP desenvolvido na FATEC Jacareí, no curso de Desenvolvimento de Software Multiplataforma (DSM). Sistema para visualização e disseminação de dados limnológicos.</p>
+                <h3>Dados Limnológicos do INPE</h3>
+                <p class="project-meta">ABP 2025-2 · 2º semestre · Parceiro: INPE</p>
+                <p>Sistema web para consulta e visualização de dados limnológicos do INPE, que estavam dispersos e sem forma prática de leitura. Permite busca por tópico e seleção de parâmetros e período para geração de gráficos.</p>
+                <div class="project-tags"><span class="project-tag">TypeScript</span><span class="project-tag">React</span><span class="project-tag">Node.js</span><span class="project-tag">PostgreSQL</span></div>
                 <div class="project-links">
-                  <a href="https://github.com/ExceptionH4ndlers/ABP_2DSM" class="btn primary-btn" target="_blank">Ver Projeto</a>
-                  <a href="https://github.com/ExceptionH4ndlers/ABP_2DSM" class="btn secondary-btn" target="_blank">Código</a>
+                  <a href="https://abpdsm.vercel.app/" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                  <a href="https://github.com/ErrorSquad-ABP/ABP2-BDLimnologico" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">Código</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="project-info">
+                <h3>Gestão de Horários Acadêmicos</h3>
+                <p class="project-meta">ABP 2025-1 · 1º semestre · Parceiro: FATEC Jacareí · Função: Scrum Master e Desenvolvedor Frontend</p>
+                <p>Plataforma para modernizar a divulgação e a consulta de grades horárias na FATEC Jacareí, substituindo um processo manual de publicação por uma ferramenta integrada.</p>
+                <div class="project-tags"><span class="project-tag">JavaScript</span><span class="project-tag">Node.js</span><span class="project-tag">HTML5</span><span class="project-tag">CSS3</span></div>
+                <div class="project-links">
+                  <a href="https://github.com/ErrorSquad-ABP/Gerenciamento_Pedagogico-Documentacao" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Documentação</a>
+                  <a href="https://github.com/ErrorSquad-ABP/Gerenciamento_Pedagogico-Front" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">Código</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Projetos Profissionais -->
         <div class="project-category" data-aos="fade-up">
           <h3 class="category-title">Projetos Profissionais</h3>
           <div class="projects-grid">
             <div class="project-card" data-aos="fade-up" data-aos-delay="100">
               <div class="project-info">
-                <h3>ATENA - Sistema de Detecção de EPIs</h3>
-                <p>Sistema de visão computacional para detecção e validação de Equipamentos de Proteção Individual (EPIs) usando YOLOv5n. Detecta pessoas como âncora principal e valida o posicionamento correto de capacetes e coletes.</p>
-                <div class="project-links">
-                  <a href="https://github.com/JV-L0pes/ATENA" class="btn primary-btn" target="_blank">Ver Projeto</a>
-                  <a href="https://github.com/JV-L0pes/ATENA" class="btn secondary-btn" target="_blank">Código</a>
-                </div>
+                <h3>Plataforma interna corporativa</h3>
+                <p class="project-meta">AutoU · Dez 2025 até hoje</p>
+                <p>Plataforma interna usada no dia a dia por toda a empresa, cobrindo projetos, vendas, recrutamento, timesheet e desempenho. Ecossistema de serviços por domínio, cada um organizado em camadas, com autorização centralizada e cadência de deploy independente por serviço.</p>
+                <div class="project-tags"><span class="project-tag">React</span><span class="project-tag">TypeScript</span><span class="project-tag">FastAPI</span><span class="project-tag">NestJS</span><span class="project-tag">PostgreSQL</span></div>
+                <p class="project-note">Código fechado. O que dá para mostrar é a decisão de arquitetura e o que ela mudou.</p>
               </div>
             </div>
             <div class="project-card" data-aos="fade-up" data-aos-delay="200">
               <div class="project-info">
-                <h3>Sistema de Reconhecimento Facial para Controle de Acesso</h3>
-                <p>Sistema completo de reconhecimento facial com detecção de liveness para controle de acesso, desenvolvido em Python com FastAPI e interface web moderna. Utiliza RetinaFace, ArcFace e FAISS para busca eficiente.</p>
-                <div class="project-links">
-                  <a href="https://github.com/JV-L0pes/Facial-Detect" class="btn primary-btn" target="_blank">Ver Projeto</a>
-                  <a href="https://github.com/JV-L0pes/Facial-Detect" class="btn secondary-btn" target="_blank">Código</a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
-              <div class="project-info">
                 <h3>AllTech Digital</h3>
-                <p>Site institucional com formulário de contato integrado a banco PostgreSQL e envio de emails via SendGrid. Plataforma moderna e responsiva para apresentação de serviços digitais.</p>
+                <p class="project-meta">AllTechBR · 2025</p>
+                <p>Site institucional com captação de leads integrada a PostgreSQL e envio de e-mail via SendGrid, com proteção CSRF, rate limiting e validação de entrada.</p>
+                <div class="project-tags"><span class="project-tag">Next.js</span><span class="project-tag">TypeScript</span><span class="project-tag">PostgreSQL</span><span class="project-tag">SendGrid</span></div>
                 <div class="project-links">
-                  <a href="https://github.com/JV-L0pes/AllTech-Site" class="btn primary-btn" target="_blank">Ver Projeto</a>
-                  <a href="https://github.com/JV-L0pes/AllTech-Site" class="btn secondary-btn" target="_blank">Código</a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card" data-aos="fade-up" data-aos-delay="400">
-              <div class="project-info">
-                <h3>Shomer</h3>
-                <p>Projeto profissional desenvolvido para segurança e monitoramento.</p>
-                <div class="project-links">
-                  <a href="https://github.com/JV-L0pes/Shomer" class="btn primary-btn" target="_blank">Ver Projeto</a>
-                  <a href="https://github.com/JV-L0pes/Shomer" class="btn secondary-btn" target="_blank">Código</a>
+                  <a href="https://github.com/JV-L0pes/AllTech-Site" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Repositório</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Projetos Pessoais -->
         <div class="project-category" data-aos="fade-up">
           <h3 class="category-title">Projetos Pessoais</h3>
           <div class="projects-grid">
             <div class="project-card" data-aos="fade-up" data-aos-delay="100">
               <div class="project-info">
-                <h3>Inbox Copilot AutoU</h3>
-                <p>Ferramenta de automação para gerenciamento de emails e inbox, desenvolvida para otimizar o fluxo de trabalho e aumentar a produtividade no tratamento de mensagens.</p>
+                <h3>Inbox Copilot</h3>
+                <p>Triagem automática de e-mail com LLM: classifica a mensagem e sugere resposta. O contrato com o modelo é estruturado por JSON Schema, então a saída é previsível em vez de texto solto.</p>
+                <div class="project-tags"><span class="project-tag">FastAPI</span><span class="project-tag">Python</span><span class="project-tag">OpenAI</span><span class="project-tag">Next.js</span></div>
                 <div class="project-links">
-                  <a href="https://github.com/JV-L0pes/Inbox-Copilot-AutoU" class="btn primary-btn" target="_blank">Ver Projeto</a>
-                  <a href="https://github.com/JV-L0pes/Inbox-Copilot-AutoU" class="btn secondary-btn" target="_blank">Código</a>
+                  <a href="https://github.com/JV-L0pes/Inbox-Copilot" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Repositório</a>
                 </div>
               </div>
             </div>
             <div class="project-card" data-aos="fade-up" data-aos-delay="200">
               <div class="project-info">
-                <h3>EPI-YOLO11</h3>
-                <p>Sistema de detecção de EPIs utilizando YOLO11, versão atualizada do modelo de detecção de objetos para identificação e validação de equipamentos de proteção individual.</p>
+                <h3>sql-to-diagram</h3>
+                <p>Cola um script SQL, sai um diagrama entidade-relacionamento. Detecta tabelas, chaves primárias e estrangeiras em PostgreSQL, MySQL e SQL Server, sem precisar subir o banco.</p>
+                <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">SQL</span></div>
                 <div class="project-links">
-                  <a href="https://github.com/JV-L0pes/EPI-YOLO11" class="btn primary-btn" target="_blank">Ver Projeto</a>
-                  <a href="https://github.com/JV-L0pes/EPI-YOLO11" class="btn secondary-btn" target="_blank">Código</a>
+                  <a href="https://github.com/JV-L0pes/sql-to-diagram" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Repositório</a>
                 </div>
               </div>
             </div>
             <div class="project-card" data-aos="fade-up" data-aos-delay="300">
               <div class="project-info">
-                <h3>SQL to Diagram</h3>
-                <p>Ferramenta para converter scripts SQL em diagramas visuais, facilitando a compreensão e documentação de bancos de dados. Gera representações gráficas de esquemas de banco de dados a partir de código SQL.</p>
+                <h3>Investment Management Platform</h3>
+                <p>Gestão de carteiras de investimento com API em Fastify e Prisma, e frontend em Next.js com React Query. Ambiente inteiro sobe por Docker Compose.</p>
+                <div class="project-tags"><span class="project-tag">Fastify</span><span class="project-tag">Prisma</span><span class="project-tag">Next.js</span><span class="project-tag">Docker</span></div>
                 <div class="project-links">
-                  <a href="https://github.com/JV-L0pes/sql-to-diagram" class="btn primary-btn" target="_blank">Ver Projeto</a>
-                  <a href="https://github.com/JV-L0pes/sql-to-diagram" class="btn secondary-btn" target="_blank">Código</a>
+                  <a href="https://github.com/JV-L0pes/Investment-Management-Platform" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Repositório</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+              <div class="project-info">
+                <h3>PR Review Slack Relay</h3>
+                <p>Microserviço que leva review de pull request do GitHub para o canal do Slack onde a conversa já acontece, por webhook consolidado.</p>
+                <div class="project-tags"><span class="project-tag">Node.js</span><span class="project-tag">Slack API</span><span class="project-tag">Webhooks</span></div>
+                <div class="project-links">
+                  <a href="https://github.com/JV-L0pes/pr-review-slack-relay" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Repositório</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+              <div class="project-info">
+                <h3>Burndown Chart</h3>
+                <p>Dashboard de burndown integrado ao Trello, com velocidade de equipe e indicadores de sprint, feito para acompanhar as entregas da ABP.</p>
+                <div class="project-tags"><span class="project-tag">JavaScript</span><span class="project-tag">Trello API</span></div>
+                <div class="project-links">
+                  <a href="https://github.com/JV-L0pes/burndown-chart" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Repositório</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <section id="contact" class="contact-section">
         <div class="section-header" data-aos="fade-up">
           <h2>Contato</h2>
@@ -374,12 +435,16 @@
         <div class="contact-content">
           <div class="contact-info" data-aos="fade-right">
             <div class="contact-item">
-              <ion-icon name="logo-github"></ion-icon>
-              <a href="https://github.com/JV-L0pes" target="_blank">github.com/JV-L0pes</a>
+              <ion-icon name="mail-outline"></ion-icon>
+              <a href="mailto:joao.v.lopes.rosa@gmail.com">joao.v.lopes.rosa@gmail.com</a>
             </div>
             <div class="contact-item">
               <ion-icon name="logo-linkedin"></ion-icon>
-              <a href="https://www.linkedin.com/in/jv-l0pes" target="_blank">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/jv-l0pes" target="_blank" rel="noopener noreferrer">linkedin.com/in/jv-l0pes</a>
+            </div>
+            <div class="contact-item">
+              <ion-icon name="logo-github"></ion-icon>
+              <a href="https://github.com/JV-L0pes" target="_blank" rel="noopener noreferrer">github.com/JV-L0pes</a>
             </div>
           </div>
         </div>
@@ -388,7 +453,7 @@
 
     <footer class="footer">
       <div class="footer-content">
-        <p>&copy; 2025 João Victor Lopes Rosa. Todos os direitos reservados.</p>
+        <p>&copy; 2026 João Victor Lopes Rosa. Todos os direitos reservados.</p>
       </div>
     </footer>
 
