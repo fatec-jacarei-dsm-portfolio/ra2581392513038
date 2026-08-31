@@ -1,10 +1,44 @@
-# Portfólio de Projetos - Fatec Jacareí
-### Aluno: João Victor Lopes Rosa
-### Curso: Desenvolvimento de Software Multiplataforma
-### Turma: 1º Semestre de 2025
- 
+# Portfólio de Projetos · Fatec Jacareí
+
+**Aluno:** João Victor Lopes Rosa
+**Curso:** Desenvolvimento de Software Multiplataforma (DSM)
+**Período:** 2025 a 2027 · cursando o 4º semestre (2026-2)
+
 ---
 
-### Portfólio Online  
-🔗 [Acesse o Portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392513038/)
-🎤 [Pitch de Apresentação (vídeo)](https://youtu.be/yE5apVrsOxc)
+## Portfólio online
+
+🔗 [Acessar o portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392513038/)
+🎤 [Pitch de apresentação (vídeo)](https://youtu.be/yE5apVrsOxc)
+
+---
+
+## Projetos ABP por semestre
+
+| Semestre | Projeto | Parceiro | Repositório |
+| --- | --- | --- | --- |
+| 2025-1 · 1º DSM | Gestão de Horários Acadêmicos | FATEC Jacareí | [documentação](https://github.com/ErrorSquad-ABP/Gerenciamento_Pedagogico-Documentacao) · [front](https://github.com/ErrorSquad-ABP/Gerenciamento_Pedagogico-Front) · [server](https://github.com/ErrorSquad-ABP/Gerenciamento_Pedagogico-Server) |
+| 2025-2 · 2º DSM | Visualização de Dados Limnológicos | INPE | [ABP2-BDLimnologico](https://github.com/ErrorSquad-ABP/ABP2-BDLimnologico) |
+| 2026-1 · 3º DSM | Quantum CRM · Gestão de Leads | 1000 Valle Multimarcas | [ABP3-Sistema-Gestao-Leads](https://github.com/ErrorSquad-ABP/ABP3-Sistema-Gestao-Leads) |
+| 2026-2 · 4º DSM | em andamento | a definir | [ABP4](https://github.com/ErrorSquad-ABP/ABP4) |
+
+---
+
+## Como este repositório está organizado
+
+O site publicado é estático e mora em `docs/`, que é a pasta que o GitHub Pages serve:
+
+```text
+docs/
+├── index.html      # versão em português
+├── index-en.html   # versão em inglês
+├── css/styles.css
+├── js/main.js
+└── img/pfp.jpg
+```
+
+Não há etapa de build. Editar o HTML e dar push na `main` já publica.
+
+> As duas versões de idioma são arquivos separados. Toda alteração de conteúdo
+> precisa ser feita nos dois, senão o site fica dizendo coisas diferentes em
+> português e em inglês.
