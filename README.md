@@ -36,9 +36,3 @@ docs/
 ├── js/main.js
 └── img/pfp.jpg
 ```
-
-Não há etapa de build. Editar o HTML e dar push na `main` já publica.
-
-> As duas versões de idioma são arquivos separados. Toda alteração de conteúdo
-> precisa ser feita nos dois, senão o site fica dizendo coisas diferentes em
-> português e em inglês.
