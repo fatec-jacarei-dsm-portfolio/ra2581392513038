@@ -645,25 +645,29 @@ section::before {
 }
 
 .contact-info {
-  display: flex; /* Alterando para flexbox */
-  flex-direction: row; /* Alinhando os itens em linha */
-  justify-content: center; /* Centralizando os cartões horizontalmente */
-  margin: 0 auto; /* Garantindo que o container esteja centralizado */
-  align-items: center; /* Alinhando verticalmente */
-  gap: 1rem; /* Reduzindo o espaçamento entre os botões */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  gap: 1rem;
+  width: 100%;
+  max-width: 52rem;
 }
 
 .contact-item {
-  flex: 1; /* Garantindo que os itens ocupem espaço proporcional */
-  width: 244.987px; /* Ajustando a largura para igualar ao botão de email */
-  max-width: none; /* Removendo limite de largura */
-  padding: 1.5rem; /* Mantendo o padding uniforme */
-  text-align: center; /* Centralizando o conteúdo */
-  display: flex; /* Usando flexbox para alinhar o conteúdo */
-  flex-direction: column; /* Alinhando o conteúdo verticalmente */
-  justify-content: center; /* Centralizando verticalmente */
-  align-items: center; /* Centralizando horizontalmente */
-  height: 100%; /* Garantindo altura consistente */
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: none;
+  width: auto;
+  min-height: 7.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1.2rem;
   background: var(--card-bg);
   border-radius: 0.8rem;
@@ -686,6 +690,7 @@ section::before {
   text-decoration: none;
   transition: var(--transition);
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .contact-item:hover a {
@@ -1937,6 +1942,7 @@ section::before {
 
   .contact-item {
     width: 100%;
+    max-width: 100%;
     padding: 1.2rem;
   }
 
