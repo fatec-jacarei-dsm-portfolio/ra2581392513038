@@ -11,6 +11,8 @@
 🔗 [Acessar o portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392513038/)
 🎤 [Pitch de apresentação (vídeo)](https://youtu.be/yE5apVrsOxc)
 
+Além deste, mantenho um portfólio profissional próprio, com os projetos descritos por decisão de arquitetura e resultado: [jv-l0pes-porfolio.vercel.app](https://jv-l0pes-porfolio.vercel.app)
+
 ---
 
 ## Projetos ABP por semestre
@@ -36,9 +38,3 @@ docs/
 ├── js/main.js
 └── img/pfp.jpg
 ```
-
-Não há etapa de build. Editar o HTML e dar push na `main` já publica.
-
-> As duas versões de idioma são arquivos separados. Toda alteração de conteúdo
-> precisa ser feita nos dois, senão o site fica dizendo coisas diferentes em
-> português e em inglês.
