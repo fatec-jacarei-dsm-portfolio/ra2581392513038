@@ -2407,3 +2407,21 @@ section::before {
     font-size: 1.15rem;
   }
 }
+
+/* Botao do portfolio profissional no hero.
+   .cta-buttons ja existia no CSS sem uso no HTML; passa a envolver o link e
+   ganha wrap para nao estourar a coluna em telas estreitas. */
+.cta-buttons {
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.cta-buttons .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.cta-buttons .btn ion-icon {
+  font-size: 1.05rem;
+}

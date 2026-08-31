@@ -11,6 +11,8 @@
 🔗 [Acessar o portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392513038/)
 🎤 [Pitch de apresentação (vídeo)](https://youtu.be/yE5apVrsOxc)
 
+Além deste, mantenho um portfólio profissional próprio, com os projetos descritos por decisão de arquitetura e resultado: [jv-l0pes-porfolio.vercel.app](https://jv-l0pes-porfolio.vercel.app)
+
 ---
 
 ## Projetos ABP por semestre
